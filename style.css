@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+  background-image: url('img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: rgb(134,0,0);
+  color:  white;
+  padding:10px;
+}
+
+p#header {
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(134,0,0);
+}
+
+navi > p {
+  display: inline;
+  padding: 10px;
+  font-size: 1em;
+}
+
+navi > p:hover {
+  background-color: rgba(243,101,101,0.79);
+  font-weight: bold;
+  color: rgb(134,0,0);
+  
+}
+
+h1#princ{
+  font-size: 4.5em;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  margin: auto;
+  padding: 40px;
+  max-width: 850px;
+  min-width: 250px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.40);
+}
+
+section#sum {
+  background-color: rgba(0,0,0,0.1);
+  padding: 5px;
+}
+
+section#sdois {
+  margin-top: 50px;
+}
+
+div#ife {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+div#if {
+  position: relative;
+  width: 80%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+iframe {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px 10px 20px 10px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  text-align: center:
+}
+
+div > p {
+  text-align: center;
+  text-decoration: underline;
+}
+
+p.des {
+  text-align: justify;
+  margin: 20px 10px 10px 10px;
+}
+
+div#image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+img {
+  width: 400px;
+  height: 225px;
+  flex: 1 0 50%;
+  max-width: 100%;
+  opacity: 0.85;
+}
+
+img:hover{
+  opacity: 1;
+  border: solid 3px black;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  width: 425px;
+  height: 239px;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: rgb(134,0,0);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+a#eu :hover {
+  color: rgba(243,101,101,0.79);
+}
+
+navi > p {
+  display: inline;
+  padding: 10px;
+  font-size: 1em;
+}
+
+navi > p:hover {
+  background-color: rgba(243,101,101,0.79);
+  font-weight: bold;
+  color: rgb(134,0,0);
+  
+}
+
+h1#princ{
+  font-size: 4.5em;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  margin: auto;
+  padding: 40px;
+  max-width: 850px;
+  min-width: 250px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.40);
+}
+
+section#sum {
+  background-color: rgba(0,0,0,0.1);
+  padding: 5px;
+}
+
+section#sdois {
+  margin-top: 50px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px 10px 20px 10px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+div > p {
+  text-align: center;
+  text-decoration: underline;
+}
+
+p.des {
+  text-align: justify;
+  margin: 20px 10px 10px 10px;
+}
+
+div#image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+img {
+  width: 400px;
+  height: 225px;
+  flex: 1 0 50%;
+  max-width: 100%;
+  opacity: 0.85;
+}
+
+img:hover{
+  opacity: 1;
+}
+
+div#td{
+  background-color: rgba(0,0,0,0.1);
+  width: 400px;
+  height: 225px;
+  display: grid;
+  place-items: center;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: rgb(134,0,0);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+a#eu :hover {
+  color: rgba(243,101,101,0.79);
+}
